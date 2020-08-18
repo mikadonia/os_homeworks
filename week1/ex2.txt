@@ -1,0 +1,357 @@
+    1  iTunes
+    2  ls
+    3  cd desktop
+    4  gcc
+    5  ls
+    6  cd CL*
+    7  ls
+    8  cd untitled/
+    9  gcc
+   10  $> gcc –v
+   11  gcc –v
+   12  gcc –v untitled
+   13  ls
+   14  gcc -v main.c
+   15  $ssh -X[alisaivanova]@osc-[N].edu.innopolis.ru
+   16  $ssh -X[alisaivanova]@osc-[N].edu.innopolis.ru
+   17  $ssh -X [alisaivanova]@osc-[N].edu.innopolis.ru
+   18  cd ~
+   19  ssh
+   20  ls
+   21  cd
+   22  cd
+   23  cd
+   24  ls
+   25  cd Music
+   26  ls
+   27  cd ..
+   28  ls
+   29  cd Desktop
+   30  cat > <cat.txt>
+   31  cat > cat.txt
+   32  mv cat katze
+   33  mv cat.txt katze.txt
+   34  mkdir ~/week1
+   35  cd ~/week1
+   36  cd ..
+   37  ls
+   38  cd Doc*
+   39  ls
+   40  cd ..
+   41  cd Applic*
+   42  ls
+   43  cd ..
+   44  cd Library
+   45  ls
+   46  cd Acc*
+   47  ls
+   48  cd ..
+   49  cd  ~
+   50  ~/usr/local/bin
+   51  ~/bin
+   52  defaults write com.apple.Finder AppleShowAllFiles YES
+   53  ls
+   54  cd ..
+   55  ls
+   56  cd ..
+   57  ls
+   58  cd bin
+   59  ls
+   60  head -n 5 < ~/week1/file.txt
+   61  head -n 5
+   62  ls
+   63  head -n 5 < /bin
+   64  head -n 5
+   65  head -n 5
+   66  head -n -5 /bin
+   67  ./gcc
+   68  /gcc
+   69  head -n gcc
+   70  head -n -2 gcc
+   71  head -n 2 gcc
+   72  cd week1
+   73  ~
+   74  cd ~
+   75  cd week1
+   76  history > ex2.txt
+   77  cat > ex3.sh
+   78  sh ex3.sh
+   79  < ex3.sh
+   80  ./ex3.sh
+   81  head -n 4 < ex3.sh
+   82  cd ex3.sh
+   83  cat > ex3.sh
+   84  sh ex3.sh
+   85  cat > ex3.sh
+   86  sh ex3.sh
+   87  cat > main.c
+   88  sudo ./main.c
+   89  ls
+   90  gcc main.c -o ex4
+   91  ./ex4
+   92  cat > ex1.txt
+   93  ls
+   94  cd~
+   95  cd ~
+   96  cd ..
+   97  cd ..
+   98  ls
+   99  cd bin
+  100  ls
+  101  head -n 5
+  102  head -n 4 gcc
+  103  bash
+  104  cd ..
+  105  ls
+  106  cd ..
+  107  ls
+  108  cd bin
+  109  head -n 3 < gcc
+  110  cd ..
+  111  cd ..
+  112  cd bin
+  113  ls bin
+  114  cd ..
+  115  ls
+  116  cd bin
+  117  ls
+  118  head -n 3 < gcc
+  119  cd ..
+  120  ls
+  121  cd ~
+  122  cd Des*
+  123  cd week1
+  124  ls
+  125  ls
+  126  cd CL*
+  127  ls
+  128  cd untitled1
+  129  ls
+  130  gcc main.c -o ex1
+  131  ./ex1
+  132  ./ex1
+  133  gcc main.c -o ex2
+  134  ./ex2
+  135  gcc main.c -o ex3
+  136  ./ex3
+  137  gcc main.c -o ex4
+  138  gcc main.c -o ex4
+  139  ./ex4
+  140  /Volumes/Sims3/The\ SIMS\(tm\)\ 3\ Install.app/Contents/MacOS/tgInstall ; exit;
+  141  sudo spctl --master-disable
+  142  /Volumes/Adobe\ Lightroom\ Claccic\ CC\ 2019\ v8.2/Extra/rhash ; exit;
+  143  /Volumes/Adobe\ Lightroom\ Claccic\ CC\ 2019\ v8.2/Extra/Install.app/Contents/MacOS/Install ; exit;
+  144  brew install gedit
+  145  gcc --help
+  146  gcc
+  147  ls
+  148  cd vscode/
+  149  ls
+  150  gcc -O test1.cpp
+  151  gcc test1.cpp 
+  152  gcc -v
+  153  xcode-select --switch path/to/Xcode.app
+  154  man xcode-select 
+  155  xcode-select --install
+  156  xcode-select --install
+  157  software update
+  158  man xcode
+  159  man xcode-select 
+  160  xcode-select -v 
+  161  ls usr
+  162  cd usr
+  163  man xcode-select 
+  164  xcode-select -r
+  165  sudo xcode-select -r
+  166  sudo xcode-select --reset
+  167  man xcode-select 
+  168  xcode
+  169  yes > /dev/null &
+  170  alloc
+  171  dc
+  172  cd ~/Documents
+  173  ls
+  174  cd ~/Downloads
+  175  ls
+  176  man ls
+  177  gcc -v
+  178  gcc test1.cpp
+  179  gcc kek.cpp 
+  180  gcc kek.cpp 
+  181  gcc kek.cpp 
+  182  gcc kek.cpp -v 
+  183  c
+  184  open xcode
+  185  cd Documents/cplusplus/
+  186  code .
+  187  sudo xcodebuild -license
+  188  python3
+  189  diff
+  190  pwd
+  191  ls
+  192  cd
+  193  cd Downloads
+  194  ls Untitled*
+  195  ls Untitled
+  196  ls Untitled*
+  197  diff Untitled.txt Untitled1.txt 
+  198  $ssh -X [alisaivanova]@osc-[N].edu.innopolis.ru
+  199  ssh -X [alisaivanova]@osc-[N].edu.innopolis.ru
+  200  whoami
+  201  hostname
+  202  man whoami
+  203  man --help
+  204  less
+  205  head
+  206  hello 2 >error.log
+  207  hello 2>error.log
+  208  ls > list.txt
+  209  head -n 3 < file.txt
+  210  pwd
+  211  ls
+  212  cd OS
+  213  cd list.txt
+  214  cd OS homeworks
+  215  ls
+  216  cd OS\ homeworks/
+  217  ls > listOs.txt
+  218  ~
+  219  ls
+  220  cd ~
+  221  head -n 3 
+  222  ls sort
+  223  ls | sort
+  224  pwd
+  225  cd OS\ homeworks/
+  226  mkdir week3
+  227  cd ..
+  228  pwd
+  229  ls
+  230  rm error.log 
+  231  ls
+  232  pw
+  233  pwd
+  234  mv /Users/alisaivanova/list.txt /Users/alisaivanova/OS\ homeworks/
+  235  ls
+  236  cd OS\ homeworks/
+  237  ls
+  238  ~
+  239  cd~
+  240  cd ~
+  241  cd OS\ homeworks/
+  242  week3
+  243  cd week3
+  244  gedit file.txt
+  245  .
+  246  ls .
+  247  cs ~
+  248  cd ~
+  249  cd ..
+  250  cd alisaivanova/
+  251  cd OS\ homeworks/
+  252  cd week1
+  253  ls -l /usr/bin/"gcc" >/Users/alisaivanova/OS\ homeworks//week1/ex1.txt
+  254  ls
+  255  ex1.txt
+  256  history > ex2.txt
+  257  nano ex2.txt
+  258  ex3.sh
+  259  sh ex3.sh
+  260  date
+  261  echo -e "date \sleep 3 \date" > ex4.sh 
+  262  sh ex4.sh
+  263  sh ex4.sh
+  264  sleep
+  265  sleep 3
+  266  date sleep 5 date
+  267  date
+  268  date sleep
+  269  cat date sleep 3 date > ex4.sh
+  270  rm ex4.sh
+  271  cat date sleep 3 date > ex4.sh
+  272  paste date sleep 3 date > ex4.sh
+  273  cat \date \sleep 3 \date > ex4.sh
+  274  cat date \sleep 3 \date > ex4.sh
+  275  cat date sleep 3 date
+  276  cd ~
+  277  cat date sleep 3 date
+  278  cat > ex5.sh
+  279  cat > ex6.sh
+  280  sh ex6.sh
+  281  rm ex5.sh ex6.sh
+  282  cd OS\ homeworks/
+  283  cd week1
+  284  cat > ex1.sh
+  285  cd OS\ homeworks/
+  286  cd week1
+  287  cat > ex1.sh
+  288  sh ex1.sh
+  289  cat > ex2.sh
+  290  sh ex2.sh
+  291  sh ex2.sh
+  292  history 
+  293  history > ex2.txt
+  294  ex2.sh
+  295  sh ex2.sh
+  296  sh ex3.sh
+  297  sh ex2.sh
+  298  cat > ex2.sh
+  299  sh ex2.sh
+  300  history > ex2.txt
+  301  cat > ex2.txt
+  302  ex2.txt
+  303  cat ex2.txt
+  304  sh ex2.sh
+  305  history > ex2.sh
+  306  sh ex2.sh
+  307  cat > ex2.sh
+  308  sh ex2.sh
+  309  history > ex2.txt
+  310  sh ex2.sh
+  311  sh ex2.sh
+  312  ls ~
+  313  cd ~
+  314  sh ex2.sh
+  315  cd OS\ homeworks/week1
+  316  sh ex2.sh
+  317  sh ex1.sh
+  318  sh ex3.sh
+  319  echo -e "history > ex2.txt" >ex2.sh
+  320  sh ex2.sh
+  321  cat > ex2.sh
+  322  sh ex2.sh
+  323  cat > ex2.sh
+  324  cat > ex2.sh
+  325  sh ex2.sh
+  326  cat > ex2.sh
+  327  cat > ex2.sh
+  328  sh ex2.sh
+  329  cat > ex2.sh
+  330  sh ex2.sh
+  331  cat > ex2.sh
+  332  sh ex2.sh
+  333  cat > ex2.sh
+  334  sh ex2.sh
+  335  sh ex1.sh
+  336  cat > ex2.sh
+  337  sh ex2.sh
+  338  cat > ex2.sh
+  339  sh e2.sh
+  340  sh ex2.sh
+  341  history > ~/week1/ex2.txt
+  342  cd ~
+  343  history > ~/week1/ex2.txt
+  344  cat > ex2.sh
+  345  sh ex2.sh
+  346  sh ex2.sh
+  347  cd OS\ homeworks/
+  348  cd week1
+  349  sh ex2.sh
+  350  cat > ex2.sh
+  351  sh ex2.sh
+  352  history > ex2.txt
+  353  sh ex2.sh
+  354  cat > ex2.sh
+  355  sh ex2.sh
+  356  cat > ex2.sh
+  357  history > ex2.txt
