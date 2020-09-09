@@ -1,0 +1,11 @@
+-+= 10898 alisaivanova -zsh
+ |-+= 10939 alisaivanova ./ex2
+ | |-+- 10940 alisaivanova ./ex2
+ | | |-+- 10948 alisaivanova ./ex2
+ | | | \--- 10952 alisaivanova ./ex2
+ | | \--- 10951 alisaivanova ./ex2
+ | |-+- 10947 alisaivanova ./ex2
+ | | \--- 10953 alisaivanova ./ex2
+ | \--- 10954 alisaivanova ./ex2
+ \-+= 10957 alisaivanova pstree 10898
+   \--- 10958 root ps -axwwo user,pid,ppid,pgid,command
