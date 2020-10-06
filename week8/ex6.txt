@@ -1,0 +1,7 @@
+We know that pages are 8KB
+8KB = 8*1024 = 8192 bytes = 2^13 bytes
+So offset = 13
+We know that a machine has 16-bit virtual addresses
+13 for offset => 16 - 13 = 3 => 3 bits for pages
+#entries = 2^3 = 8
+Answer: 8 entries
