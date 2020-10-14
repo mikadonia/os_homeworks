@@ -1,0 +1,8 @@
+input.txt - original input file
+inputSort.txt - sorted input file
+inputShuffle.txt - specifically shuffled input file
+
+increased hit/miss ratio => we should access page before it will be removed from the cache
+
+
+decreased hit/miss ratio => we should access page every time after it was removed from the cache.

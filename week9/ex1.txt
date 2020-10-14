@@ -1,0 +1,6 @@
+alisaivanova@Alisa-Ivanovas-MacBook-Pro week9 % ./ex1 10 input.txt
+Hit/Miss ratio: 0.010101
+alisaivanova@Alisa-Ivanovas-MacBook-Pro week9 % ./ex1 50 input.txt
+Hit/Miss ratio: 0.053741
+alisaivanova@Alisa-Ivanovas-MacBook-Pro week9 % ./ex1 100 input.txt
+Hit/Miss ratio: 0.104972
