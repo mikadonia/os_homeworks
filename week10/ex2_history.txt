@@ -1,0 +1,16 @@
+  426  cd ~
+  427  cd OShomeworks/week10
+  428  /Users/alisaivanova/OShomeworks/week01/file.txt _ex2.txt
+  429  sudo /Users/alisaivanova/OShomeworks/week01/file.txt _ex2.txt
+  430  link /Users/alisaivanova/OShomeworks/week01/file.txt _ex2.txt
+  431  ls -i _ex2.txt
+  432  find /Users/alisaivanova/OShomeworks/week01/file.txt -inum 27948268
+  433  link /Users/alisaivanova/OShomeworks/week01/file.txt _ex2.txt >> ex2.txt
+  434  ls -i _ex2.txt >> ex2.txt
+  435  find /Users/alisaivanova/OShomeworks/week01/file.txt -inum 27948268 >> ex2.txt
+  436  find /Users/alisaivanova/OShomeworks/week01/file.txt -inum 27948268 -exec rm{}\>> ex2.txt
+  437  find /Users/alisaivanova/OShomeworks/week01/file.txt -inum 27948268 -exec rm{}\;>> ex2.txt
+  438  find /Users/alisaivanova/OShomeworks/week01/file.txt -inum 27948268 -exec rm{}\>> ex2.txt;
+  439  find /Users/alisaivanova/OShomeworks/week01/file.txt -inum 27948268 -exec rm{} \;>> ex2.txt
+  440  nano ex2.txt
+  441  find /Users/alisaivanova/OShomeworks/week01/file.txt -inum 27948268 >> ex2.txt

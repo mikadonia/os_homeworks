@@ -1,0 +1,9 @@
+-rw-rw-rw-  1 alisaivanova  staff  0 Oct 21 16:12 _ex3.txt
+-rwxrw-rwx  1 alisaivanova  staff  0 Oct 21 16:12 _ex3.txt
+-rwxrwxrwx  1 alisaivanova  staff  0 Oct 21 16:12 _ex3.txt
+
+1) 660: read and write for user and group
+   	nothing for other
+2) 775: read, write and execute for user and group
+   	read and execute for other
+3) 777: read, write, execute for user, group and other
