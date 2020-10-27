@@ -1,0 +1,5 @@
+We have difference between program 1 and to in printf function: printf("Hello"); vs printf("Hello\n"); 
+So we know that linear buffer becomes free after char "\n"
+In program 1 we have printf("Hello") without "\n" so buffer will not be empty and we see string "hello" 2 times
+
+In program 2 we have printf("Hello\n") so buffer will empty and we have only 1 string "hello"
