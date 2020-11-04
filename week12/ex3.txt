@@ -1,0 +1,47 @@
+
+gcc copy.c -o copy -DBUF_SIZE=2048
+time ./copy fileA fileB
+0.00s user 0.00s system 0% cpu 0.417 total
+
+gcc copy.c -o copy -DBUF_SIZE=1024
+time ./copy fileA fileB
+0.00s user 0.00s system 0% cpu 0.494 total
+
+gcc copy.c -o copy -DBUF_SIZE=512
+time ./copy fileA fileB
+0.00s user 0.00s system 0% cpu 0.486 total
+
+gcc copy.c -o copy -DBUF_SIZE=128
+time ./copy fileA fileB
+0.00s user 0.00s system 1% cpu 0.209 total
+
+gcc copy.c -o copy -DBUF_SIZE=64
+time ./copy fileA fileB
+0.00s user 0.00s system 2% cpu 0.199 total
+
+
+buffer size decreases => times gets longer, so and gets shorter when buffer size increases.
+____________________________________________________________________________________________
+
+gcc -DBUF_SIZE=2048 -o copy copy.c -DSYNC
+time ./copy fileA fileB
+0.00s user 0.00s system 0% cpu 0.435 total
+
+gcc -DBUF_SIZE=1024 -o copy copy.c -DSYNC
+time ./copy fileA fileB
+0.00s user 0.00s system 1% cpu 0.196 total
+
+gcc -DBUF_SIZE=512 -o copy copy.c -DSYNC
+time ./copy fileA fileB
+0.00s user 0.00s system 0% cpu 0.385 total
+
+gcc -DBUF_SIZE=128 -o copy copy.c -DSYNC
+time ./copy fileA fileB
+0.00s user 0.00s system 2% cpu 0.200 total
+
+gcc -DBUF_SIZE=64 -o copy copy.c -DSYNC  
+time ./copy fileA fileB
+0.00s user 0.00s system 1% cpu 0.225 total
+
+With O_SYNC buffer size decreases => times gets shorter. But copying with O_SYNC is slower. 
+___________________________________________________________________________________________
