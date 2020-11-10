@@ -1,0 +1,25 @@
+Prevention:
+
+It requires information about future requests: which resources we can (not) use . It can not be possible always due to os can not provide prevention of deadlocks but for some often occured processes we can store information about using of resources and can predict usage of resources.
+
+So we should prevent at least one of the conditions stated below:
+1. Mutual Exclusion
+2.Hold and Wait
+3.No Preemption
+4.Circular Wait
+__________________________________________________
+
+Avoidance:
+
+Deadlocks can be avoided but requires more information about each process in
+advance: what resources will be used and it's availableness. Should be mentioned that from a safe state the system can guarantee that all processes will finish BUT from an unsafe state, no such guarantee can be given.
+__________________________________________________
+
+Recovery:
+Recovery through Preemption_ can be used when it's possible to temporarily take a resource away from its current owner and give it to another process. Recovering this way is frequently difficult or impossible in the fact of the difficulty to determine which processes have resources that can easily be taken back.
+
+Recovery through Rollback_
+Deadlock is detected so we should determine resources that are needed. For doing the recovery,the process that owns a needed resource is rolled back to a point in time before it acquired that resource by starting at one of its earlier checkpoints.It can be used when deadlocks are very likely but this strategy takes much memory space and time.
+
+Recovery through Killing Processes_
+The simplest way to break a deadlock is to kill process_es. Where possible, it is best to kill a process that can be rerun from the beginning with no ill effects. Difficulties: the process to be killed should be carefully chosen because it may holding resources that some process in the cycle needs. 
